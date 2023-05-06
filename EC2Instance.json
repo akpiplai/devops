@@ -4,7 +4,8 @@
         "CloudFormationSampleEC2": {
           "Type": "AWS::EC2::Instance",
           "Properties": {
-            "InstanceType": "t2.micro"
+            "InstanceType": "t2.micro",
+            "ImageId" : "ami-03c7d01cf4dedc891"
           }
         }
     }
